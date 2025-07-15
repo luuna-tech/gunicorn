@@ -58,3 +58,10 @@ table_open_cache = 2000
 thread_stack = 262144
 tmp_table_size = 536870912
 wait_timeout = 3600
+
+innodb_status_output = 1
+innodb_status_output_locks = 1
+log_queries_not_using_indexes = 1
+general_log = 1
+general_log_file = /var/lib/mysql/general_query.log
+log_error = /var/log/mysql/mariadb-error.log
